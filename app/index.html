@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Marsden Kelly</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="app.js"></script>
+    <script src="home/home.js"></script>
+    <script src="pages/acting/acting.js"></script>
+    <script src="pages/bio/bio.js"></script>
+    <script src="pages/booking/booking.js"></script>
+    <script src="pages/improv/improv.js"></script>
+    <script src="pages/sketch/sketch.js"></script>
+    <script src="pages/standup/standup.js"></script>
+    <script src="pages/writing/writing.js"></script>
+    <script src="components/version/version.js"></script>
+    <script src="components/version/version-directive.js"></script>
+    <script src="components/version/interpolate-filter.js"></script>
+    <script src="vendor/sparkley.js"></script>
+</head>
+<body>
+    <div class="marsden-title">
+        <a href="#!/home"><h1>Marsden Kelly</h1></a>
+    </div>
+    <ul class="menu-block">
+        <li><a href="#!/bio">Bio</a></li>
+        <li><a href="#!/standup">Stand-Up</a></li>
+        <li><a href="#!/improv">Improv</a></li>
+        <!--<li><a href="#!/sketch">Sketch</a></li>-->
+        <li><a href="#!/writing">Comedy Writing</a></li>
+        <!--<li><a href="#!/acting">Acting</a></li>-->
+    </ul>
+
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <div ng-view class="main-content"></div>
+
+    <!--social media-->
+    <div class="social">
+        <a href="https://www.facebook.com/marsdenkellyofficial" target="_blank"><img src="img/facebook-pink.png"></a>
+        <a href="https://twitter.com/ithinkshesontv" target="_blank"><img src="img/twitter-pink.png"></a>
+        <a href="https://www.instagram.com/ithinkshesontv/" target="_blank"><img src="img/insta-pink.png"></a>
+    </div>
+
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  -->
+
+
+</body>
+</html>

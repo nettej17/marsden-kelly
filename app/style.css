@@ -1,0 +1,153 @@
+a, a:visited {
+  color: #fc46ab;
+}
+.menu-block {
+  list-style: none;
+  -webkit-padding-start: 0;
+}
+.menu-block > li {
+  display: inline;
+}
+
+.marsden-title {
+  color: black;
+  border-bottom: 1px black solid;
+  text-align: center;
+  font-size: 2em;
+  width: 70%;
+  margin: auto; }
+  .marsden-title a {
+    color: black;
+    text-decoration: none;
+  }
+
+.social > a {
+  margin: 10px;
+}
+.social {
+  padding-bottom: 30px;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 300;
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 32px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-radial-gradient(circle, #fc46ab, #FE0B99, #e60a74); }
+
+.menu-block > li > a {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 24px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-radial-gradient(circle, #fc46ab, #FE0B99, #e60a74); }
+
+.photo-strip, .menu-block, .calendar, .social {
+  text-align: center;
+  padding-top: 30px;
+  /*width: 80%;*/
+  margin: auto;
+}
+.center{
+  padding-top: 30px;
+  text-align: center;
+}
+
+.photo-strip > img {
+  height: auto;
+  width: 27%;
+  margin: 2%; }
+
+.calendar {
+  text-align: left;
+  padding-top: 0;
+  width: 60%; }
+  .calendar img {
+    height: auto;
+    width: 100%; }
+
+.sparkley {
+  background-image: -webkit-radial-gradient(circle, #fc46ab, #FE0B99, #fe0b99);
+  color: white;
+  border: none;
+  padding: 16px 36px;
+  font-weight: normal;
+  border-radius: 3px;
+  transition: all 0.25s ease;
+  margin: 0 1em 1em; }
+  .sparkley:hover {
+    background: #FE0B99;
+    color: rgba(255, 255, 255, 0.8); }
+
+.align-left {
+  max-width: 50%;
+  float: left; }
+
+.align-right {
+  max-width: 50%;
+  float: right; }
+
+.book-now {
+  margin-top: 30px;
+}
+.book-now > a {
+  margin-top: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.main-content{
+  width: 80%;
+  margin: auto;
+}
+
+.improv-graphic{
+  width: 100%;
+  margin-bottom: 25px;
+}
+.bio-photo {
+  width: 40%;
+  margin: 10px;
+  display: inline-block;
+}
+.bio-photo > img {
+  width: 100%;
+}
+.bio-text {
+  width: 55%;
+  margin: 10px;
+  display: inline-flex;
+  float: left;
+}
+
+@media (max-width: 415px) {
+  .photo-strip, .menu-block, .calendar, .main-content, .social {
+    width: 100%;
+    margin: auto;
+  }
+  .main-content{
+    width: 95%;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .book-now {
+    max-width: 45%;
+  }
+  .align-left, .align-right {
+    max-width: 45%;
+  }
+  .improv-graphic{
+    width: 100%;
+  }
+  .bio-photo {
+    width:100%;
+    /*marign: 10px;*/
+  }
+
+}

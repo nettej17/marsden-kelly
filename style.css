@@ -1,0 +1,73 @@
+.marsden-title {
+  color: black;
+  border-bottom: 1px black solid;
+  text-align: center;
+  width: 70%;
+  margin: auto; }
+  .marsden-title a {
+    color: black;
+    text-decoration: none; }
+
+h1 {
+  font-style: normal;
+  font-weight: 300;
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 32px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-radial-gradient(circle, #fc46ab, #FE0B99, #e60a74); }
+
+.menu > a {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 24px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-radial-gradient(circle, #fc46ab, #FE0B99, #e60a74); }
+
+.photo-strip, .menu, .calendar {
+  text-align: center;
+  padding-top: 30px;
+  width: 80%;
+  margin: auto; }
+
+.photo-strip > img {
+  height: auto;
+  width: 27%;
+  margin: 2%; }
+
+.calendar {
+  text-align: left;
+  padding-top: 0;
+  width: 60%; }
+  .calendar img {
+    height: auto;
+    width: 100%; }
+
+.sparkley {
+  background-image: -webkit-radial-gradient(circle, #fc46ab, #FE0B99, #fe0b99);
+  color: white;
+  border: none;
+  padding: 16px 36px;
+  font-weight: normal;
+  border-radius: 3px;
+  transition: all 0.25s ease;
+  margin: 0 1em 1em; }
+  .sparkley:hover {
+    background: #FE0B99;
+    color: rgba(255, 255, 255, 0.8); }
+
+.align-left {
+  max-width: 50%;
+  float: left; }
+
+.align-right {
+  max-width: 50%;
+  float: right; }
+
+.book-now {
+  margin-top: 30px; }
+
+/*# sourceMappingURL=style.css.map */
