@@ -3,7 +3,7 @@
 angular.module('myApp.sketch', ['ngRoute'])
 
     .config(['$routeProvider', function($routeProvider) {
-        $routeProvider.when('/sketch', {
+        $routeProvider.when('/modeling', {
             templateUrl: 'pages/sketch/sketch.html',
             controller: 'SketchCtrl'
         });

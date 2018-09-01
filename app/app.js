@@ -8,6 +8,7 @@ angular.module('myApp', [
   'myApp.bio',
   'myApp.booking',
   'myApp.improv',
+  // 'myApp.modeling',
   'myApp.sketch',
   'myApp.standup',
   'myApp.writing',
