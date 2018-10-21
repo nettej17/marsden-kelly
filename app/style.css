@@ -13,13 +13,24 @@ a, a:visited {
   color: black;
   border-bottom: 1px black solid;
   text-align: center;
-  font-size: 2em;
   width: 70%;
-  margin: auto; }
-  .marsden-title a {
-    color: black;
-    text-decoration: none;
-  }
+  margin: auto;
+}
+
+.marsden-title a {
+  color: black;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+.marsden-title h1 {
+  margin-bottom: 0px;
+}
+
+.marsden-title p {
+  margin-top: 0px;
+  font-family: 'Montserrat', 'Open Sans';
+}
 
 .social > a {
   margin: 10px;
@@ -29,17 +40,20 @@ a, a:visited {
 }
 
 h1 {
+  font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 300;
   text-transform: uppercase; }
 
 h2 {
+  font-family: 'Oswald', sans-serif;
   font-size: 32px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-image: -webkit-radial-gradient(circle, #fc46ab, #FE0B99, #e60a74); }
 
 .menu-block > li > a {
+  font-family: 'Oswald', sans-serif;
   text-decoration: none;
   padding: 10px 20px;
   font-size: 24px;
@@ -153,4 +167,13 @@ h2 {
 }
 .acting-graphic {
   height: 300px;
+}
+
+.subscribe {
+  position: fixed !important;
+  right: 20px;
+  top: 10px;
+}
+.italic {
+  font-style: italic;
 }

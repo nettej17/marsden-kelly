@@ -9,7 +9,7 @@ angular.module('myApp', [
   'myApp.booking',
   'myApp.improv',
   // 'myApp.modeling',
-  'myApp.sketch',
+  'myApp.media',
   'myApp.standup',
   'myApp.writing',
 ]).
