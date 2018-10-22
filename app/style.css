@@ -163,7 +163,9 @@ h2 {
   max-width: 300px;
   margin: 3px;
 }
-
+.acting-graphic-container {
+  text-align: center;
+}
 @media (max-width: 415px) {
   .photo-strip, .menu-block, .calendar, .main-content, .social {
     width: 100%;
