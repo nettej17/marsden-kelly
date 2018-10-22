@@ -143,8 +143,25 @@ h2 {
   float: left;
 }
 
+.writing-graphic-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  /*flex-direction: column;*/
+}
+.writing-graphic-column {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 3;
+}
+.writing-graphic-middle {
+  flex-grow: 1;
+  padding: 0 3px 10px 3px;
+}
+
 .writing-graphic {
-  width: 300px;
+  max-width: 300px;
+  margin: 3px;
 }
 
 @media (max-width: 415px) {
@@ -196,5 +213,11 @@ h2 {
     width: 100%;
     padding: 16px 0px;
     font-size: 20px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .writing-graphic {
+    max-width: 80%
   }
 }
