@@ -120,9 +120,13 @@ h2 {
   margin: auto;
 }
 
+.improv-graphic-row {
+  text-align: center;
+}
 .improv-graphic{
-  width: 100%;
-  margin-bottom: 25px;
+  height: 300px;
+  display: inline-block;
+  margin-bottom: 3px;
 }
 .bio-photo {
   width: 40%;
@@ -137,6 +141,10 @@ h2 {
   margin: 10px;
   display: inline-flex;
   float: left;
+}
+
+.writing-graphic {
+  width: 300px;
 }
 
 @media (max-width: 415px) {
@@ -156,9 +164,6 @@ h2 {
   .align-left, .align-right {
     max-width: 45%;
   }
-  .improv-graphic{
-    width: 100%;
-  }
   .bio-photo {
     width:100%;
     /*marign: 10px;*/
@@ -173,7 +178,23 @@ h2 {
   position: fixed !important;
   right: 20px;
   top: 10px;
+  text-align: center;
 }
 .italic {
   font-style: italic;
+}
+
+
+@media (max-width: 630px) {
+  .improv-graphic{
+    width: 100%;
+    height: auto;
+  }
+  .subscribe {
+    position: relative !important;
+    top: 0px;
+    width: 100%;
+    padding: 16px 0px;
+    font-size: 20px;
+  }
 }
